@@ -1,0 +1,67 @@
+body {
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+.row div {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 3px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.row {
+    display: flex;
+}
+.calculator {
+    min-width: 200px;
+}
+.playAgain {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.7em;
+    width: 120px;
+    border-radius: 5px;
+    background-color: mediumspringgreen;
+    border: none;
+    display: none;
+}
+.randomNum {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    font-weight: bold;
+    color: green;
+}
+.solution {
+    text-align: center;
+    margin-bottom: 1.7em;
+}
+.solution span:first-child {
+    font-size: 20px;
+    color: orangered;
+    font-weight: bold;
+}
+.solution span:last-child {
+    font-size: 2em;
+    color: orangered;
+    font-weight: bold;
+}
+.loseOrWin {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    color: crimson;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}

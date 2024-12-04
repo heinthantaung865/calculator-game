@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="makeRandomNum()">
+    <div class="container">
+      <div class="container1">
+        <div class="randomNum"></div>
+        <div class="solution">
+          Your Solution (<span></span>) = <span></span>
+        </div>
+      </div>
+      <div class="calculator">
+        <div class="row">
+          <div onclick="handleClick(this)" class="num">1</div>
+          <div onclick="handleClick(this)" class="num">2</div>
+          <div onclick="handleClick(this)" class="num">3</div>
+        </div>
+        <div class="row">
+          <div onclick="handleClick(this)" class="num">4</div>
+          <div onclick="handleClick(this)" class="num">5</div>
+          <div onclick="handleClick(this)" class="num">6</div>
+        </div>
+        <div class="row">
+          <div onclick="handleClick(this)" class="num">7</div>
+          <div onclick="handleClick(this)" class="num">8</div>
+          <div onclick="handleClick(this)" class="num">9</div>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="loseOrWin"></div>
+        <button class="playAgain" onclick="playAgain()">Play Again</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
